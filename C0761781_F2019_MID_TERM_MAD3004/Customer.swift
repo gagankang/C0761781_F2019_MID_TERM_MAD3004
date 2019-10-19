@@ -15,5 +15,11 @@ class Customer: IDisplay
     var fullName: String
     var emailID: String
     var customerdict = Dictionary<String, Bill>()
+    var totalAmount: Float
     
+    init(customerID: String, firstName: String, lastName: String, fullName: String, emailID: String, customerdict: Dictionary<String, Bill>, totalAmount: Float)
+    {
+        
+        
+    }
 }
