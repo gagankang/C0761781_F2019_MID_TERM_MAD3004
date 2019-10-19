@@ -19,7 +19,19 @@ class Customer: IDisplay
     
     init(customerID: String, firstName: String, lastName: String, fullName: String, emailID: String, customerdict: Dictionary<String, Bill>, totalAmount: Float)
     {
+        self.customerID = customerID
+        self.firstName = firstName
+        self.lastName = lastName
+        self.fullName = firstName + lastName
+        self.emailID = emailID
+        self.customerdict = customerdict
+        self.totalAmount = totalAmount
+    }
+    
+    func display()
+    {
+       print("")
         
-        
+   
     }
 }
