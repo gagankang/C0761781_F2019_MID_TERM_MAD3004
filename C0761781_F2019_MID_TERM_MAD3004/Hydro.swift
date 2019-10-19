@@ -8,7 +8,9 @@
 
 import Foundation
 
-class hydro
+class Hydro
 {
+    var agencyName: String
+    var unitsConsumed: String
     
 }
