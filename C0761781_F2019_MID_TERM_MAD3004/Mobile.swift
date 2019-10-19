@@ -7,5 +7,11 @@
 //
 
 import Foundation
-class Mobile
+class Mobile: Bill
+{
+    var manufacturerName: String
+    var planName
+    
+    
+}
 
