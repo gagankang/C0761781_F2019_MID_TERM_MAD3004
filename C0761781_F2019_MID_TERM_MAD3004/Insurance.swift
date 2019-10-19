@@ -25,7 +25,12 @@ class Insurance: IDisplay
         self.iProvider =  iProvider
         self.startDate = startDate
         self.endDate = endDate
-        
+        self.totalInstallments = totalInstallments
+    }
+    
+    func display()
+    {
+         
         
     }
 }
