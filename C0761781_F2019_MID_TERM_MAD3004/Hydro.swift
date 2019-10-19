@@ -22,7 +22,8 @@ class Hydro: Bill
     
     override func display()
     {
-        
-        
+        print("Agency Name: \(agencyName)")
+        print("Units Consumed: \(unitsConsumed)")
+        super.display()
     }
 }
