@@ -21,7 +21,11 @@ class Mobile: Bill
         self.mobileNo = mobileNo
         self.gbUsed = gbUsed
         self.minUsed = minUsed
-        super.init(billID: billID, billDate: billDate, billType: billType, totalBillAmount: totalAmount)
+        super.init(billID: billID, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
+    }
+    
+    override func display() {
+        
     }
     
 }
