@@ -34,7 +34,6 @@ class Insurance: IDisplay
         print("Insurance Provider: \(iProvider)")
         print("Start Date: \(startDate)")
         print("End Date: \(endDate)")
-        
-        
+        print("Total Installment Money: \(totalInstallments)")
     }
 }
