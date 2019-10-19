@@ -16,6 +16,8 @@ var internet1 = Internet(providerName: "Bell", internetGbUsed: 10.3, billID: "2"
 
 var hydro1 = Hydro(agencyName: "Algoma", unitsConsumed: 233, billID: "41", billDate: Date(), billType: Bill.bType.Hydro, totalBillAmount: 97)
 
-var customer1 = Customer(customerID: "C01", firstName: "Gagan", lastName: "Kang", fullName: "Gagan Kang", emailID: "<#T##String#>", customerdict: <#T##Dictionary<String, Bill>#>, totalAmount: <#T##Float#>)
+var customer1 = Customer(customerID: "C01", firstName: "Gagan", lastName: "Kang", fullName: "Gagan Kang", emailID: "preetkang4511@gmail.com", customerdict: [mobile1.billID:mobile1, internet1.billID:internet1, hydro1.billID:hydro1], totalAmount: 150.99)
+
+
 
 
