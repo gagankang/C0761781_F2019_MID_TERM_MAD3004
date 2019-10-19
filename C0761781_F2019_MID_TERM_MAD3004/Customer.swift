@@ -31,10 +31,11 @@ class Customer: IDisplay
     func display()
     {
         print("Customer ID: \(customerID)")
-        print("First Name: \(firstName)")
-        print("Last Name: \(lastName)")
         print("Full Name: \(fullName)")
+        print("Email Id: \(emailID)")
         
+        for allItems in 
+     
    
     }
 }
