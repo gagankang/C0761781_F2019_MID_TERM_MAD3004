@@ -10,5 +10,10 @@ import Foundation
 class Customer: IDisplay
 {
     var customerID: String
-    var 
+    var firstName: String
+    var lastName: String
+    var fullName: String
+    var emailID: String
+    var customerdict = Dictionary<String, Bill>()
+    
 }
