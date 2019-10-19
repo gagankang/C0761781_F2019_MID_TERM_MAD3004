@@ -17,5 +17,12 @@ class Hydro: Bill
     {
         self.agencyName = agencyName
         self.unitsConsumed = unitsConsumed
+        super.init(billID: billID, billDate: billDate, billType: billType, totalBillAmount: totalBillAmount)
+    }
+    
+    override func display()
+    {
+        
+        
     }
 }
