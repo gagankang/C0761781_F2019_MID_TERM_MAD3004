@@ -30,7 +30,11 @@ class Insurance: IDisplay
     
     func display()
     {
-         
+        print("Insurance Type: \(insuranceType)")
+        print("Insurance Provider: \(iProvider)")
+        print("Start Date: \(startDate)")
+        print("End Date: \(endDate)")
+        
         
     }
 }
