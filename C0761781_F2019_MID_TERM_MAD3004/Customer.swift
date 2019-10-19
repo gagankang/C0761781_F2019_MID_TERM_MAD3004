@@ -34,8 +34,10 @@ class Customer: IDisplay
         print("Full Name: \(fullName)")
         print("Email Id: \(emailID)")
         
-        for allItems in 
+        for allItems in customerdict
+        {
+            print(allItems)
+        }
      
-   
     }
 }
