@@ -19,7 +19,13 @@ class Insurance: IDisplay
     var endDate: Date
     var totalInstallments: Float
     
-    init(<#parameters#>) {
-        <#statements#>
+    init(insuranceType: itype, iProvider: String, startDate: Date, endDate: Date, totalInstallments: Float)
+    {
+        self.insuranceType = insuranceType
+        self.iProvider =  iProvider
+        self.startDate = startDate
+        self.endDate = endDate
+        
+        
     }
 }
