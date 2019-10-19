@@ -30,7 +30,10 @@ class Customer: IDisplay
     
     func display()
     {
-       print("")
+        print("Customer ID: \(customerID)")
+        print("First Name: \(firstName)")
+        print("Last Name: \(lastName)")
+        print("Full Name: \(fullName)")
         
    
     }
