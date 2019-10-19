@@ -10,5 +10,11 @@ import Foundation
 class Internet:  Bill
 {
     var providerName: String
-    var internetgbUsed: Float
+    var internetGbUsed: Float
+    
+    init(providername: String,internetGbUsed: Float,billID: String, billDate: Date, billType: bType, totalBillAmount: Float)
+    {
+        
+        
+    }
 }
