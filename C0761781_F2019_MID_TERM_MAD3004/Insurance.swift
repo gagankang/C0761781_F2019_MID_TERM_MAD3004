@@ -9,5 +9,10 @@
 import Foundation
 class Insurance: IDisplay
 {
-    
+    enum itype
+    {
+        case Home, car, Business
+    }
+    var insuranceType: itype
+    var iProvider: String
 }
