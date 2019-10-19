@@ -15,4 +15,11 @@ class Insurance: IDisplay
     }
     var insuranceType: itype
     var iProvider: String
+    var startDate: Date
+    var endDate: Date
+    var totalInstallments: Float
+    
+    init(<#parameters#>) {
+        <#statements#>
+    }
 }
