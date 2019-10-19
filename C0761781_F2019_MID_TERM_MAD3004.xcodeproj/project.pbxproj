@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		9BDE4759235BBC4A00959CA3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4758235BBC4A00959CA3 /* main.swift */; };
 		9BDE4760235BBCC300959CA3 /* Mobile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE475F235BBCC300959CA3 /* Mobile.swift */; };
+		9BDE4762235BBCFD00959CA3 /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4761235BBCFD00959CA3 /* Bill.swift */; };
+		9BDE4764235BBD1000959CA3 /* IDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDE4763235BBD1000959CA3 /* IDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		9BDE4755235BBC4A00959CA3 /* C0761781_F2019_MID_TERM_MAD3004 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C0761781_F2019_MID_TERM_MAD3004; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDE4758235BBC4A00959CA3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9BDE475F235BBCC300959CA3 /* Mobile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mobile.swift; sourceTree = "<group>"; };
+		9BDE4761235BBCFD00959CA3 /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		9BDE4763235BBD1000959CA3 /* IDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				9BDE4758235BBC4A00959CA3 /* main.swift */,
 				9BDE475F235BBCC300959CA3 /* Mobile.swift */,
+				9BDE4761235BBCFD00959CA3 /* Bill.swift */,
+				9BDE4763235BBD1000959CA3 /* IDisplay.swift */,
 			);
 			path = C0761781_F2019_MID_TERM_MAD3004;
 			sourceTree = "<group>";
@@ -122,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BDE4764235BBD1000959CA3 /* IDisplay.swift in Sources */,
 				9BDE4759235BBC4A00959CA3 /* main.swift in Sources */,
+				9BDE4762235BBCFD00959CA3 /* Bill.swift in Sources */,
 				9BDE4760235BBCC300959CA3 /* Mobile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
