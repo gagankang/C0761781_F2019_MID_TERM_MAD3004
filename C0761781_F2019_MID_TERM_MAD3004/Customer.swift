@@ -8,3 +8,7 @@
 
 import Foundation
 class Customer: IDisplay
+{
+    var customerID: String
+    var 
+}
