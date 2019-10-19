@@ -11,11 +11,18 @@ class Mobile: Bill
 {
     var manufacturerName: String!
     var planName: String
-    var mobileNO: String
+    var mobileNo: String
     var gbUsed: Float
     var minUsed: Float
-    init(manufacturerName: String, planName: String, mobileNo: String, gbUsed: Float, minUsed: Float, ) {
-        
+    init(manufacturerName: String, planName: String, mobileNo: String, gbUsed: Float, minUsed: Float, billID: String, billDate: Date, billType: bType, totalBillAmount: Float)
+    {
+        self.manufacturerName = manufacturerName
+        self.planName = planName
+        self.mobileNo = mobileNo
+        self.gbUsed = gbUsed
+        self.minUsed = minUsed
+        super.init(billID: billID, billDate: billDate, billType: billType, totalBillAmount: totalAmount)
     }
+    
 }
 
