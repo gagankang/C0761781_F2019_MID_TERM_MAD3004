@@ -22,7 +22,7 @@ class Customer: IDisplay
         self.customerID = customerID
         self.firstName = firstName
         self.lastName = lastName
-        self.fullName = firstName + lastName
+        self.fullName = firstName + " " + lastName
         self.emailID = emailID
         self.customerdict = customerdict
         self.totalAmount = totalAmount
@@ -34,9 +34,9 @@ class Customer: IDisplay
         print("Full Name: \(fullName)")
         print("Email Id: \(emailID)")
         
-        for allItems in customerdict
+        for allItems in customerdict.values
         {
-            print(allItems)
+            allItems.display()
         }
      
     }
