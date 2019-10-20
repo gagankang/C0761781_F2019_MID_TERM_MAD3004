@@ -20,6 +20,8 @@ var customer1 = Customer(customerID: "C01", firstName: "Gagan", lastName: "Kang"
 
 var customer2 = Customer(customerID: "C02", firstName: "Mandeep", lastName: "Singh", fullName: "Mandeep Singh", emailID: "singhmandeep@gmail.com", customerdict: [mobile1.billID:mobile1, internet1.billID:internet1, hydro1.billID:hydro1], totalAmount: 200.09)
 
+var insurance1 = Insurance(insuranceType: "Full", iProvider: "Bell", startDate: Date(), endDate: Date(), totalInstallments: 12000)
+
 mainDict.updateValue(customer1, forKey: customer1.customerID)
 mainDict.updateValue(customer2, forKey: customer2.customerID)
 for items in mainDict.values

@@ -9,17 +9,14 @@
 import Foundation
 class Insurance: IDisplay
 {
-    enum itype
-    {
-        case Home, car, Business
-    }
-    var insuranceType: itype
+
+    var insuranceType: String
     var iProvider: String
     var startDate: Date
     var endDate: Date
     var totalInstallments: Float
     
-    init(insuranceType: itype, iProvider: String, startDate: Date, endDate: Date, totalInstallments: Float)
+    init(insuranceType: String, iProvider: String, startDate: Date, endDate: Date, totalInstallments: Float)
     {
         self.insuranceType = insuranceType
         self.iProvider =  iProvider
